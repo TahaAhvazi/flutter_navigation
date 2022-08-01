@@ -38,7 +38,7 @@ class MyHomePage extends StatelessWidget {
     // 1- Navigate with Navigator class | 2- Navigate with Getx Package
     // Navigator.of(context)
     //     .push(MaterialPageRoute(builder: (context) => const SecoundScreen()));
-    Get.to(SecoundScreen());
+    Get.to(const SecoundScreen());
   }
 
   @override
